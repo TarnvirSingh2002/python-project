@@ -1,0 +1,13 @@
+import os
+#os.mkdir("taran")
+#os.chdir("taran")
+#f=open("onee.txt","w")
+#f.close()
+#os.remove("demo")
+#os.rename("one.txt","silly")
+print(os.curdir)
+print(os.path.abspath("silly"))
+print(os.path.getatime("silly"))
+print(os.path.getmtime("silly"))
+print(os.path.getctime("silly"))
+print(os.listdir("taran"))

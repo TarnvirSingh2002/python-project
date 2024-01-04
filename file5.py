@@ -1,0 +1,6 @@
+file=open("zxzxz",'w+')
+file.write("tarn")
+print(file.tell())
+file.seek(0)
+print(file.read())
+file.close()

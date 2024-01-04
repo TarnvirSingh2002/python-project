@@ -1,0 +1,24 @@
+n=[]
+i=0
+k=[]
+j=[]
+while(i<10):
+    n.append(int(input("enter one number:")))
+    i+=1
+i=0
+while(i<10):
+    if(n[i]%2==0):
+        k.append(n[i])
+    if(n[i]%2!=0):
+        j.append(n[i])
+    i+=1
+l=len(k)
+i=0
+while(i<l):
+    print(k[i],end=",")
+    i+=1
+i=0
+t=len(j)
+while(i<t):
+    print(j[i],end=",")
+    i+=1

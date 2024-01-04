@@ -1,0 +1,7 @@
+f=open("one.txt","w+")
+f.write("Hello taranvir")
+f.seek(5)
+dd=f.read()
+print(f.tell())
+print(dd)
+f.close()
